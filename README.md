@@ -70,5 +70,5 @@ python -m http.server 8000
 ### Open in browser:
 
 ```
-http://localhost:8000/deps_graph.html
+http://localhost:8000/my_graph.html
 ```
