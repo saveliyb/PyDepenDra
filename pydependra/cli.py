@@ -41,7 +41,6 @@ def collect_python_files(config: Config, base_dir: Path):
 def main():
     parser = argparse.ArgumentParser(description="PyDependra: Python code dependency analyzer.")
     parser.add_argument("--config", help="Path to config file (default looks for pydependra.yaml).")
-    parser.add_argument("--ignore", help="Additional files to ignore (comma-separated).")
     parser.add_argument("--visualize", action="store_true", help="Generate dependency graph.")
     parser.add_argument("--root", default=".", help="Root directory for analysis (default: current directory).")
     parser.add_argument("--output", default="dependencies", help="Output filename or path for the graph.")
@@ -54,8 +53,6 @@ def main():
         return
 
     config = Config(args.config)
-    if args.ignore:
-        config.ignore_files.extend(args.ignore.split(","))
 
     parser = PythonParser(config)
     for py_file in collect_python_files(config, root_dir):
