@@ -1,0 +1,4 @@
+PyYAML~=6.0.2
+chardet~=5.2.0
+networkx~=3.5
+pyvis==0.3.1

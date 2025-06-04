@@ -1,0 +1,10 @@
+ignore:
+  files:
+    - "venv/**"
+    - "**/tests/**"
+    - "**/venv/**"
+    - "main.py"
+    - "**/lib/**"
+    - "lib/**"
+  dependencies:
+    - "pytest"
