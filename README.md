@@ -57,3 +57,18 @@ Cycles:
 []
 ```
 
+## 🌐 Viewing HTML Reports
+
+After generating the HTML visualization, you can quickly view it using Python's built-in HTTP server:
+
+### Start HTTP server (in the same directory)
+
+```
+python -m http.server 8000
+```
+
+### Open in browser:
+
+```
+http://localhost:8000/deps_graph.html
+```
