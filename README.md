@@ -1,6 +1,6 @@
-# PyDepend - Python Dependency Analysis Toolkit
+# PyDepenDra - Python Dependency Analysis Toolkit
 
-**PyDepend** is a static analysis tool that maps and visualizes dependencies in Python projects. It helps maintain clean architecture by revealing import patterns and circular dependencies.
+**PyDepenDra** is a static analysis tool that maps and visualizes dependencies in Python projects. It helps maintain clean architecture by revealing import patterns and circular dependencies.
 
 ## 🌟 Key Features
 
@@ -28,7 +28,7 @@ python -m pydependra.cli --root "your/root/dir/project" --config ""your/root/dir
 
 ##  ⚙️ Configuration
 
-Create `pydepend.yaml` in your project root:
+Create `PyDepenDra.yaml` in your project root:
 
 ```
 ignore:
